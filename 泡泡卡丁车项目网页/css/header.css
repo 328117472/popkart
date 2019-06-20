@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+.header_footer {
+    float: right;
+    line-height: 3rem;
+    color: black;
+}
+
+.recommend {
+    position: absolute;
+    left: 36rem;
+}

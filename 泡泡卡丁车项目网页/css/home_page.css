@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*设置背景图片*/
+.bg {
+    background: url(../image/home_page/kr181212bg.jpg) no-repeat;
+    width: 100%;
+    height: 115.1rem;
+    background-position: -15.8rem;
+}
+
+/*设置提醒字样*/
+.msg>span {
+    position: absolute;
+    top: 7.3rem;
+    left: 13.1rem;
+    width: 185px;
+    background-color: #71747d;
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*设置logo位置*/
+.msg>a {
+    position: absolute;
+    top: 7.3rem;
+    left: 41rem;
+}
+
+/* 设置菜单位置 */
+.menu>a.zx {
+    display: block;
+    width: 8.5rem;
+    height: 4.9rem;
+    background: url(../image/home_page/menu.png);
+    position: absolute;
+    top: 15rem;
+    left: 13.6rem;
+}
+
+.menu>a.zn {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -8rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 21.6rem;
+}
+
+.menu>a.xt {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -16rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 29.6rem;
+}
+
+.menu>a.sq {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -24rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 37.6rem;
+}
+
+.menu>a.dj {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -32rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 45.6rem;
+}
+
+.menu>a.gf {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -40rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 53.6rem;
+}
+
+.my_down {
+    position: absolute;
+    top: 6rem;
+    left: 62rem;
+}
+
+.my_bg {
+    background-color: #fff;
+    position: absolute;
+    top: 19.7rem;
+    left: 13.6rem;
+    width: 61.3rem;
+    height: 93rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+}
+
+.carousel {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.notice {
+    position: absolute;
+    top: 115rem;
+    left: 14.4rem;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 16rem;
+    left: 56.2rem;
+    width: 25px;
+    height: 28px;
+    background: url(../image/home_page/mainSlider.png) no-repeat;
+    background-position: -0.8rem -23.3rem;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 16rem;
+    left: 57.7rem;
+    width: 25px;
+    height: 28px;
+    background: url(../image/home_page/mainSlider.png) no-repeat;
+    background-position: -2.5rem -23.3rem;
+}
+
+.carousel-indicators>li {
+    width: 250px;
+    height: 28px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 15.7rem;
+    left: -9.1rem;
+}
+
+.lunbo {
+    background: url(../image/home_page/mainSlider.png) no-repeat;
+    width: 100%;
+    height: 20.3rem;
+}
+
+.carousel-indicators li.active {
+    background: url(../image/home_page/mainSlider.png) no-repeat;
+    background-position: -10rem -23.2rem;
+}
+
+.middle {
+    position: absolute;
+    top: 40rem;
+    left: 14.3rem;
+}
+
+.my_left {
+    float: left;
+
+}
+
+.my_left>dl>dt {
+    width: 686px;
+    height: 53px;
+    background: url(../image/home_page/newsTitle.png);
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    line-height: 53px;
+}
+
+.my_left>dl>dt>span {
+    float: right;
+    color: #666;
+    font-size: 0.6rem;
+    padding-right: 0.4rem;
+}
+
+.my_left>dl {
+    height: 188px;
+    background: #f0f0f1;
+    margin: 0;
+}
+
+.my_left>dl>dd {
+    margin: 4px 0 0 15px;
+}
+
+.my_left>dl>dd>p {
+    width: 500px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.my_left>dl>dd>p>a {
+    color: #f60;
+    display: inline-block;
+}
+
+.my_left>dl>dt>a {
+    color: #000;
+    text-decoration: none;
+}
+
+.my_right {
+    float: right;
+    padding-left: 0.6rem;
+}
+
+.my_right>.login {
+    display: block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 250px;
+    height: 67.3px;
+    background-position: 0rem -8.9rem;
+}
+
+.my_right>.vip {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: 0rem -13rem;
+}
+
+.my_right>.recharge {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: 0rem -15rem;
+}
+
+.my_right>.service {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: -15rem -13rem;
+}
+
+.my_right>.safety {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: -15rem -15rem;
+}
+
+.my_right>.cebian>.carousel {
+    position: absolute;
+    top: 10rem;
+    left: 43.7rem;
+}
+
+.my_right>.cebian>.carousel>.carousel-control-prev {
+    background: url(../image/home_page/secondarySliderArrow.png) no-repeat;
+    position: absolute;
+    top: 10.5rem;
+    left: 0rem;
+    display: block;
+    width: 6px;
+    height: 11px;
+}
+
+.my_right>.cebian>.carousel>.carousel-control-next {
+    background: url(../image/home_page/secondarySliderArrow.png)no-repeat;
+    background-position: -0.4rem 0rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 15rem;
+    display: block;
+    width: 6px;
+    height: 11px;
+}
+
+.my_right>.cebian>.carousel>.carousel-indicators {
+    position: absolute;
+    top: 10.3rem;
+    left: 0rem;
+}
+
+.my_right>.cebian>.carousel {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+.my_right>.cebian {
+    background: #cccccc;
+    width: 253px;
+    height: 202px;
+}
+
+.my_right>.cebian>.carousel>.carousel-indicators>li {
+    width: 186px;
+    height: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.my_right>.cebian>.carousel>.carousel-indicators li.active {
+    width: 186px;
+    height: 16px;
+    background: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.xs {
+    margin-top: 0.5rem;
+    width: 250px;
+    height: 70px;
+    background: url(../image/home_page/secondaryBtn.jpg);
+}
+
+.xs>a {
+    display: block;
+    width: 250px;
+    height: 70px;
+}
+
+.game_msg {
+    margin: 0.5rem;
+    font-size: 12px;
+}
+
+.game_msg>strong {
+    color: #333;
+    font-size: 15px;
+}
+
+.game_msg>.server {
+    float: right;
+}
+
+.nav-tabs>.nav>.nav-item>.nav-link {
+    color: black;
+    background: #e8e8e8;
+}
+
+.nav-tabs>.nav>.nav-item>.nav-link:hover {
+    background: #fff;
+}
+
+.tab-content {
+    margin: 0.5rem;
+}
+
+.tab-content>.tab-pane>table>thead>tr>th {
+    background: #e8e8e8;
+    font-weight: normal;
+    justify-content: center;
+    width: 80px;
+}
+
+.tab-content>.tab-pane>table>tbody>tr {
+    border-bottom: 1px dashed #e8e8e8;
+}
+
+.tab-content>.tab-pane>table {
+    text-align: center;
+}
+
+.help {
+    width: 250px;
+    height: 207px;
+    background: #f1f1f1;
+}
+
+.help>a {
+    display: block;
+    width: 78.39px;
+    height: 26px;
+    line-height: 26px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.help>table {
+    text-align: left;
+    margin: 0.2rem;
+    border: 1px solid #f1f1f1;
+}
+
+.help>table>tbody>tr {
+    height: 23.5px;
+    padding-left: 0.2rem;
+}
+
+.help>table>tbody>tr>td>a {
+    color: black;
+}
+
+.m_img {
+    margin-top: 0.2rem;
+    width: 250px;
+    height: 180px;
+    background: #f1f1f1;
+}
+
+.m_img>a>img {
+    margin: 0.4rem 0rem 0rem 0.3rem;
+}

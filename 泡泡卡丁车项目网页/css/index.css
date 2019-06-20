@@ -1,0 +1,288 @@
+/*清零所有边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*设置头部*/
+.header {
+    width: 100%;
+    height: 2.7rem;
+    background: url(../image/index/bg.gif);
+
+}
+
+#a1 {
+    display: inline-block;
+    background: url(../image/index/split.jpg);
+    width: 10px;
+    height: 10px;
+}
+
+/*设置头部ul*/
+.header>div>ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+/*设置头部ul中的a*/
+.header>div>ul>li>a {
+    display: block;
+    width: 5.5rem;
+    line-height: 2.7rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+/* .header>div>ul>li>img{
+    float: left;
+    padding: 0rem 0.8rem;
+} */
+/*头部导航栏竖线*/
+/* .header>div>ul>li>span{
+    width: 1px;
+    height: 43px;
+    background: url(../image/index/split.jpg) no-repeat;
+} */
+
+.bg {
+    width: 104.45rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -60rem;
+}
+
+.bg div {
+    height: 6.2rem;
+}
+
+/*设置nav1位置*/
+.my_nav1 {
+    position: absolute;
+    top: 12rem;
+    left: 27rem;
+}
+
+/*设置nav1-5背景图片位移*/
+.nav1 {
+    background: url(../image/index/nav.png) no-repeat;
+    display: block;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+}
+
+.nav1:hover {
+    background-position: 0rem -18.5rem;
+}
+
+.nav2 {
+    background: url(../image/index/nav.png) no-repeat;
+    background-position: -15.2rem 0;
+    position: absolute;
+    display: block;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    top: 0rem;
+    left: 15rem;
+}
+
+.nav2:hover {
+    background-position: -15.2rem -18.5rem;
+}
+
+.nav3 {
+    background: url(../image/index/nav.png) no-repeat;
+    background-position: 0 -6rem;
+    position: absolute;
+    display: block;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    top: 6rem;
+    left: 0rem;
+}
+
+.nav3:hover {
+    background-position: 0rem -24.5rem;
+}
+
+.nav4 {
+    background: url(../image/index/nav.png) no-repeat;
+    background-position: -15.2rem -6rem;
+    position: absolute;
+    display: block;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    top: 6rem;
+    left: 15rem;
+}
+
+.nav4:hover {
+    background-position: -15.2rem -24.5rem;
+}
+
+.nav5 {
+    background: url(../image/index/nav.png) no-repeat;
+    background-position: 0rem -12.2rem;
+    position: absolute;
+    display: block;
+    width: 15rem;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    top: 12rem;
+    left: 0;
+}
+
+.nav5:hover {
+    background-position: 0rem -30.7rem;
+}
+
+/*设置logo位置*/
+.my_logo {
+    position: absolute;
+    top: 2.4rem;
+    left: 28.8rem
+}
+
+/*设置car1-2的位置*/
+.car1 {
+    position: absolute;
+    top: 30.4rem;
+    left: 21rem;
+}
+
+.car2 {
+    position: absolute;
+    top: 8rem;
+    left: 56rem;
+}
+
+/*插入背景图片*/
+.bg1 {
+    width: 109.4rem;
+    background: url(../image/index/bg1.jpg) no-repeat
+}
+
+.bg2 {
+    width: 109.4rem;
+    background: url(../image/index/bg2.jpg) no-repeat
+}
+
+.bg3 {
+    width: 109.4rem;
+    background: url(../image/index/bg3.jpg) no-repeat
+}
+
+.bg4 {
+    width: 109.4rem;
+    background: url(../image/index/bg4.jpg) no-repeat
+}
+
+.bg5 {
+    width: 109.4rem;
+    background: url(../image/index/bg5.jpg) no-repeat
+}
+
+.bg6 {
+    width: 109.4rem;
+    background: url(../image/index/bg6.jpg) no-repeat
+}
+
+.bg7 {
+    width: 109.4rem;
+    background: url(../image/index/bg7.jpg) no-repeat
+}
+
+.bg8 {
+    width: 109.4rem;
+    background: url(../image/index/bg8.jpg) no-repeat
+}
+
+.bg9 {
+    width: 109.4rem;
+    background: url(../image/index/bg9.jpg) no-repeat
+}
+
+.bg10 {
+    width: 109.4rem;
+    background: url(../image/index/bg10.jpg) no-repeat
+}
+
+/*设置脚部*/
+.footer {
+    position: absolute;
+    top: 60rem;
+    width: 100%;
+    height: 10rem;
+    background: #1c1302;
+}
+
+/*设置脚部div位置*/
+.my_footer {
+    margin: 0 auto;
+    width: 960px;
+    padding: 20px 20px 0px;
+    height: 10rem;
+    line-height: 15px;
+    clear: both;
+    font-size: 12px;
+    color: #818181;
+}
+
+/*脚部信息左浮动*/
+.footer_msg {
+    float: right;
+}
+
+/**/
+.footer_msg>a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.my_img {
+    padding: 0 0 0.6rem 0;
+    border-bottom: 1px solid #818181;
+}
+
+/*下面图片左外边距*/
+.footer_logo>a {
+    margin-right: 0.5rem;
+}
+
+.footer_text1 {
+    position: absolute;
+    top: 6.2rem;
+    left: 49rem;
+    list-style: none;
+}
+
+.footer_text1>li>a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 0.8rem;
+}
+
+.footer_text2 {
+    position: absolute;
+    top: 6.2rem;
+    left: 58rem;
+    list-style: none;
+    background-color: #4aa52b;
+    color: #fff;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}

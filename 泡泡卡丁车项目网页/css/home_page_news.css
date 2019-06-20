@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*设置背景图片*/
+.bg {
+    background: url(../image/home_page/kr181212bg.jpg) no-repeat;
+    width: 100%;
+    height: 115.1rem;
+    background-position: -15.8rem;
+}
+
+/*设置提醒字样*/
+.msg>span {
+    position: absolute;
+    top: 7.3rem;
+    left: 13.1rem;
+    width: 185px;
+    background-color: #71747d;
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*设置logo位置*/
+.msg>a {
+    position: absolute;
+    top: 7.3rem;
+    left: 41rem;
+}
+
+/* 设置菜单位置 */
+.menu>a.zx {
+    display: block;
+    width: 8.5rem;
+    height: 4.9rem;
+    background: url(../image/home_page/menu.png);
+    position: absolute;
+    top: 15rem;
+    left: 13.6rem;
+}
+
+/*设置菜单栏*/
+.menu>a.zn {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -8rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 21.6rem;
+}
+
+/*设置菜单栏*/
+.menu>a.xt {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -16rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 29.6rem;
+}
+
+/*设置菜单栏*/
+.menu>a.sq {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -24rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 37.6rem;
+}
+
+/*设置菜单栏*/
+.menu>a.dj {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -32rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 45.6rem;
+}
+
+/*设置菜单栏*/
+.menu>a.gf {
+    display: block;
+    width: 8.5rem;
+    height: 5.6rem;
+    background: url(../image/home_page/menu.png) no-repeat;
+    background-position: -40rem 1rem;
+    position: absolute;
+    top: 14rem;
+    left: 53.6rem;
+}
+
+/*设置菜单栏*/
+.my_down {
+    position: absolute;
+    top: 6rem;
+    left: 62rem;
+}
+
+/*背景色*/
+.my_bg {
+    background-color: #fff;
+    position: absolute;
+    top: 19.7rem;
+    left: 13.6rem;
+    width: 61.3rem;
+    height: 93rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+}
+
+/*新闻位置*/
+.middle {
+    position: absolute;
+    top: 20rem;
+    left: 14.3rem;
+}
+
+/*新闻中心右浮动*/
+.my_left {
+    float: left;
+
+}
+
+.news {
+    width: 686px;
+    height: 1472px;
+    background: #eeeeef;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+
+.news>.title {
+    width: 99%;
+    height: 74px;
+    background: url(../image/news/new1/primaryBox.png) no-repeat;
+    background-position: 0rem 0rem;
+}
+
+.news>.title>h2 {
+    height: 44px;
+}
+
+.news>.title>h2>.news_title {
+    display: inline-block;
+    width: 74px;
+    height: 20px;
+    background: url(../image/news/new1/title.png) no-repeat;
+    background-position: 0.2rem -4.9rem;
+    margin-left: 1.9rem;
+}
+
+.news>.title>h2>.navigation {
+    float: right;
+    font-size: 12px;
+    color: #999;
+    line-height: 44px;
+}
+
+.news>.title>h2>.navigation>a {
+    color: #999;
+}
+
+.my_news {
+    background: url(../image/news/new1/primaryBoxRpt.png);
+    width: 42.5rem;
+    height: 88.1rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+.my_title {
+    color: #f60;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 4rem;
+    height: 39px;
+}
+
+.my_news>.my_news_title {
+    width: 42.4rem;
+    height: 5.7rem;
+    background: url(../image/news/new1/sprite_news.jpg) no-repeat;
+    background-position: 0.5rem -5rem;
+}
+
+.my_subhead {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    line-height: 0rem;
+}
+
+.my_number {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url(../image/news/new1/sprite_news.jpg) no-repeat;
+    background-position: 0.1rem -10.7rem;
+}
+
+.copy {
+    color: #666;
+}
+
+.article {
+    font-size: 10pt;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    padding-right: 0.4rem;
+}
+
+.my_share {
+    font-size: 10pt;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    padding-right: 0.4rem;
+    color: red;
+}
+
+.my_share>a {
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 1rem;
+    width: 41rem;
+    border: 0.2px dashed #666;
+}
+
+.newsCommentBar {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.newsCommentBar1,
+.newsCommentBar2,
+.newsCommentBar3,
+.newsCommentBar4,
+.newsCommentBar5,
+.newsCommentBar6 {
+    background: url(../image/news/new1/newsCommentBar.jpg)
+}
+
+.newsCommentBar1 {
+    width: 17px;
+    height: 32.72px;
+    position: relative;
+    top: 4rem;
+    left: 1.4rem;
+}
+
+.my_number1 {
+    position: relative;
+    top: 2.7rem;
+    left: 2.1rem;
+}
+
+.my_number2 {
+    position: relative;
+    top: 4.1rem;
+    left: 6.9rem;
+}
+
+.my_number3 {
+    position: relative;
+    top: 4.8rem;
+    left: 11rem;
+}
+
+.my_number4 {
+    position: relative;
+    top: 4.8rem;
+    left: 15.9rem;
+}
+
+.my_number5 {
+    position: relative;
+    top: 3.8rem;
+    left: 20.2rem;
+}
+
+.my_number6 {
+    position: relative;
+    top: 4.3rem;
+    left: 24.3rem;
+}
+
+.newsCommentBar2 {
+    width: 17px;
+    height: 10.91px;
+    position: relative;
+    top: 5.4rem;
+    left: 6.1rem;
+}
+
+.newsCommentBar3 {
+    width: 17px;
+    height: 3.63px;
+    position: relative;
+    top: 6rem;
+    left: 10.3rem;
+}
+
+.newsCommentBar4 {
+    width: 17px;
+    height: 3.63px;
+    position: relative;
+    top: 6rem;
+    left: 15.1rem;
+}
+
+.newsCommentBar5 {
+    width: 17px;
+    height: 18.17px;
+    position: relative;
+    top: 5rem;
+    left: 19.5rem;
+}
+
+.newsCommentBar6 {
+    width: 17px;
+    height: 10.91px;
+    position: relative;
+    top: 5.6rem;
+    left: 23.6rem;
+}
+
+.newsComment {
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.newsComment>ul {
+    display: flex;
+    list-style: none;
+}
+
+.newsComment>ul>li>a {
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    padding-right: 6.1rem;
+}
+
+.newsComment>ul>li>.a1 {
+    background: url(../image/news/new1/newsComment.jpg);
+}
+
+.newsComment>ul>li>.a2 {
+    background: url(../image/news/new1/newsComment.jpg);
+    background-position: -6.4rem 0rem;
+}
+
+.newsComment>ul>li>.a3 {
+    background: url(../image/news/new1/newsComment.jpg);
+    background-position: -13.8rem 0rem;
+}
+
+.newsComment>ul>li>.a4 {
+    background: url(../image/news/new1/newsComment.jpg);
+    background-position: -20.3rem 0rem;
+}
+
+.newsComment>ul>li>.a5 {
+    background: url(../image/news/new1/newsComment.jpg);
+    background-position: -27.4rem 0rem;
+}
+
+.newsComment>ul>li>.a6 {
+    background: url(../image/news/new1/newsComment.jpg);
+    background-position: -34.5rem 0rem;
+}
+
+.my_right {
+    float: right;
+    padding-left: 0.6rem;
+}
+
+.my_right>.login {
+    display: block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 250px;
+    height: 67.3px;
+    background-position: 0rem -8.9rem;
+}
+
+.my_right>.vip {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: 0rem -13rem;
+}
+
+.my_right>.recharge {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: 0rem -15rem;
+}
+
+.my_right>.service {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: -15rem -13rem;
+}
+
+.my_right>.safety {
+    display: inline-block;
+    background: url(../image/home_page/secondaryBtn.jpg) no-repeat;
+    width: 7.5rem;
+    height: 2rem;
+    background-position: -15rem -15rem;
+}
+
+.my_right>.cebian {
+    background: url(../image/news/new1/newsSecondarySelect.jpg) no-repeat;
+    width: 15.6rem;
+    height: 12.5rem;
+}
+
+.consult {
+    display: block;
+    width: 236.2px;
+    height: 35px;
+    background: url(../image/news/new1/newsSecondarySelect.jpg) no-repeat;
+    background-position: -15.9rem -3.2rem;
+    position: relative;
+    top: 3rem;
+    left: 0.2rem;
+}
+
+.consult1 {
+    display: inline-block;
+    width: 236.2px;
+    height: 35px;
+    position: relative;
+    top: 3.5rem;
+    left: 0.1rem;
+    background: url(../image/news/new1/newsSecondarySelect.jpg) no-repeat;
+    background-position: -0.1rem -5.9rem;
+}
+
+.cebian>div>.consult1:hover {
+    background-position: -15.8rem -5.9rem;
+}
+
+.consult2 {
+    display: inline-block;
+    width: 236.2px;
+    height: 35px;
+    position: relative;
+    top: 4rem;
+    left: 0.1rem;
+    background: url(../image/news/new1/newsSecondarySelect.jpg) no-repeat;
+    background-position: -0.1rem -8.9rem;
+}
+
+.cebian>div>.consult2:hover {
+    background-position: -15.8rem -8.7rem;
+}
+
+.recommend {
+    width: 250px;
+    height: 163px;
+}
+
+.recommend1 {
+    background: url(../image/news/new1/secondaryText.png) no-repeat;
+    height: 17px;
+    width: 64px;
+    background-position: 0rem -4.8rem;
+}
+
+.recommend>img {
+    width: 248px;
+    height: 140px;
+    margin-top: 0.4rem;
+}
+
+.relatedTo {
+    background: url(../image/news/new1/sprite_news.jpg);
+    background-position: 0rem -11.6rem;
+    width: 250px;
+    height: 301px;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+
+.relatedTo>h3 {
+    width: 100%;
+    height: 0;
+    padding-top: 35px;
+    overflow: hidden;
+}
+
+.relatedTo>div>ul {
+    list-style: none;
+    width: 218px;
+    margin: 0 auto 4px;
+    padding: 5px 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #FFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.relatedTo>div>ul>li>a {
+    line-height: 24px;
+    display: block;
+    color: #333;
+    width: 210px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.my_footer_img {
+    position: relative;
+    top: -4rem;
+    left: 14rem;
+}
